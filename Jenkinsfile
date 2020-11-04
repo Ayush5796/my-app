@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                bat "mvn package -f my-app" 
+                bat "mvn package" 
             }
         }
     }
